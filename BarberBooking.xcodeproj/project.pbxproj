@@ -3,25 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2174806822E99E1A00E248F0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174806722E99E1A00E248F0 /* TabBarViewController.swift */; };
+		2174806C22E9B33E00E248F0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174806B22E9B33E00E248F0 /* Extensions.swift */; };
+		2174806E22E9B4D200E248F0 /* UserAccountKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174806D22E9B4D200E248F0 /* UserAccountKit.swift */; };
 		21A1D76522E94B240095D630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A1D76422E94B240095D630 /* AppDelegate.swift */; };
-		21A1D76722E94B240095D630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A1D76622E94B240095D630 /* ViewController.swift */; };
+		21A1D76722E94B240095D630 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A1D76622E94B240095D630 /* LoginViewController.swift */; };
 		21A1D76A22E94B240095D630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A1D76822E94B240095D630 /* Main.storyboard */; };
 		21A1D76C22E94B260095D630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A1D76B22E94B260095D630 /* Assets.xcassets */; };
 		21A1D76F22E94B260095D630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A1D76D22E94B260095D630 /* LaunchScreen.storyboard */; };
+		21A1D77722E94B7F0095D630 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21A1D77622E94B7F0095D630 /* GoogleService-Info.plist */; };
+		21A1D77A22E95E010095D630 /* classique_saigon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21A1D77922E95E010095D630 /* classique_saigon.ttf */; };
+		21A1D77C22E95E200095D630 /* roboto_light.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 21A1D77B22E95E200095D630 /* roboto_light.TTF */; };
+		21A1D77E22E95E2B0095D630 /* bellerose.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21A1D77D22E95E2B0095D630 /* bellerose.ttf */; };
+		C10B73D3F06366D71B2C2FA3 /* Pods_BarberBooking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49EEC965443C0FE8B0BFC5C /* Pods_BarberBooking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2174806722E99E1A00E248F0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		2174806B22E9B33E00E248F0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2174806D22E9B4D200E248F0 /* UserAccountKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountKit.swift; sourceTree = "<group>"; };
 		21A1D76122E94B240095D630 /* BarberBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarberBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A1D76422E94B240095D630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21A1D76622E94B240095D630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21A1D76622E94B240095D630 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		21A1D76922E94B240095D630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21A1D76B22E94B260095D630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21A1D76E22E94B260095D630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21A1D77022E94B260095D630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A1D77622E94B7F0095D630 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		21A1D77922E95E010095D630 /* classique_saigon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = classique_saigon.ttf; path = ../../../../Downloads/BarberShop/classique_saigon.ttf; sourceTree = "<group>"; };
+		21A1D77B22E95E200095D630 /* roboto_light.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = roboto_light.TTF; path = ../../../../Downloads/BarberShop/roboto_light.TTF; sourceTree = "<group>"; };
+		21A1D77D22E95E2B0095D630 /* bellerose.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = bellerose.ttf; path = ../../../../Downloads/BarberShop/bellerose.ttf; sourceTree = "<group>"; };
+		7C795DEF413C0B527163BCE3 /* Pods-BarberBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarberBooking.release.xcconfig"; path = "Target Support Files/Pods-BarberBooking/Pods-BarberBooking.release.xcconfig"; sourceTree = "<group>"; };
+		9B929456C885796040165C14 /* Pods-BarberBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarberBooking.debug.xcconfig"; path = "Target Support Files/Pods-BarberBooking/Pods-BarberBooking.debug.xcconfig"; sourceTree = "<group>"; };
+		F49EEC965443C0FE8B0BFC5C /* Pods_BarberBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarberBooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C10B73D3F06366D71B2C2FA3 /* Pods_BarberBooking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		189535B451F792C549F76A3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B929456C885796040165C14 /* Pods-BarberBooking.debug.xcconfig */,
+				7C795DEF413C0B527163BCE3 /* Pods-BarberBooking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2174806922E9B01300E248F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2174806D22E9B4D200E248F0 /* UserAccountKit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2174806A22E9B32B00E248F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2174806B22E9B33E00E248F0 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		21A1D75822E94B240095D630 = {
 			isa = PBXGroup;
 			children = (
 				21A1D76322E94B240095D630 /* BarberBooking */,
 				21A1D76222E94B240095D630 /* Products */,
+				189535B451F792C549F76A3F /* Pods */,
+				96EEC553364D3BD4F1492434 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +100,45 @@
 		21A1D76322E94B240095D630 /* BarberBooking */ = {
 			isa = PBXGroup;
 			children = (
+				2174806A22E9B32B00E248F0 /* Extensions */,
+				2174806922E9B01300E248F0 /* Models */,
+				21A1D78122E966080095D630 /* ViewControllers */,
+				21A1D77822E95DBC0095D630 /* Fonts */,
 				21A1D76422E94B240095D630 /* AppDelegate.swift */,
-				21A1D76622E94B240095D630 /* ViewController.swift */,
 				21A1D76822E94B240095D630 /* Main.storyboard */,
 				21A1D76B22E94B260095D630 /* Assets.xcassets */,
 				21A1D76D22E94B260095D630 /* LaunchScreen.storyboard */,
 				21A1D77022E94B260095D630 /* Info.plist */,
+				21A1D77622E94B7F0095D630 /* GoogleService-Info.plist */,
 			);
 			path = BarberBooking;
+			sourceTree = "<group>";
+		};
+		21A1D77822E95DBC0095D630 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				21A1D77D22E95E2B0095D630 /* bellerose.ttf */,
+				21A1D77922E95E010095D630 /* classique_saigon.ttf */,
+				21A1D77B22E95E200095D630 /* roboto_light.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		21A1D78122E966080095D630 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				21A1D76622E94B240095D630 /* LoginViewController.swift */,
+				2174806722E99E1A00E248F0 /* TabBarViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		96EEC553364D3BD4F1492434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F49EEC965443C0FE8B0BFC5C /* Pods_BarberBooking.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21A1D77322E94B260095D630 /* Build configuration list for PBXNativeTarget "BarberBooking" */;
 			buildPhases = (
+				2F25DA9A784D401480521FDC /* [CP] Check Pods Manifest.lock */,
 				21A1D75D22E94B240095D630 /* Sources */,
 				21A1D75E22E94B240095D630 /* Frameworks */,
 				21A1D75F22E94B240095D630 /* Resources */,
+				F150D5D11F351B36489C55CC /* [CP] Embed Pods Frameworks */,
+				BBE2C8B1BCC50B8B59F54FB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +202,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A1D77A22E95E010095D630 /* classique_saigon.ttf in Resources */,
 				21A1D76F22E94B260095D630 /* LaunchScreen.storyboard in Resources */,
+				21A1D77E22E95E2B0095D630 /* bellerose.ttf in Resources */,
+				21A1D77722E94B7F0095D630 /* GoogleService-Info.plist in Resources */,
 				21A1D76C22E94B260095D630 /* Assets.xcassets in Resources */,
+				21A1D77C22E95E200095D630 /* roboto_light.TTF in Resources */,
 				21A1D76A22E94B240095D630 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F25DA9A784D401480521FDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarberBooking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE2C8B1BCC50B8B59F54FB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BarberBooking/Pods-BarberBooking-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BarberBooking/Pods-BarberBooking-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BarberBooking/Pods-BarberBooking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F150D5D11F351B36489C55CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BarberBooking/Pods-BarberBooking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BarberBooking/Pods-BarberBooking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BarberBooking/Pods-BarberBooking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21A1D75D22E94B240095D630 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21A1D76722E94B240095D630 /* ViewController.swift in Sources */,
+				21A1D76722E94B240095D630 /* LoginViewController.swift in Sources */,
+				2174806822E99E1A00E248F0 /* TabBarViewController.swift in Sources */,
 				21A1D76522E94B240095D630 /* AppDelegate.swift in Sources */,
+				2174806E22E9B4D200E248F0 /* UserAccountKit.swift in Sources */,
+				2174806C22E9B33E00E248F0 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +426,7 @@
 		};
 		21A1D77422E94B260095D630 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B929456C885796040165C14 /* Pods-BarberBooking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +445,7 @@
 		};
 		21A1D77522E94B260095D630 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C795DEF413C0B527163BCE3 /* Pods-BarberBooking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
