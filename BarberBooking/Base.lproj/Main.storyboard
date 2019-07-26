@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -69,6 +70,104 @@
             </objects>
             <point key="canvasLocation" x="46" y="26"/>
         </scene>
+        <!--Update Profile View Controller-->
+        <scene sceneID="h5n-Ng-XIh">
+            <objects>
+                <viewController storyboardIdentifier="UpdateProfileViewController" modalPresentationStyle="overCurrentContext" id="efP-WS-0B0" customClass="UpdateProfileViewController" customModule="BarberBooking" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J52-H3-bPS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uBk-3b-P5U">
+                                <rect key="frame" x="0.0" y="444.5" width="375" height="222.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HvI-Tl-5g9">
+                                        <rect key="frame" x="16" y="4" width="109" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="#8E8E93"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VZb-sq-T9C">
+                                        <rect key="frame" x="16" y="28.5" width="343" height="2"/>
+                                        <color key="backgroundColor" name="#CECED2"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="seL-Z5-UZR"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dMd-wg-AtY">
+                                        <rect key="frame" x="20" y="43.5" width="335" height="104"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GyU-AE-VCm">
+                                                <rect key="frame" x="0.0" y="0.0" width="335" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="CfQ-ae-o4k"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yZG-FZ-07K">
+                                                <rect key="frame" x="0.0" y="56" width="335" height="48"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nL1-IF-jPn">
+                                        <rect key="frame" x="20" y="170.5" width="335" height="48"/>
+                                        <color key="backgroundColor" name="#4CD946"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="x4Q-zX-dCr"/>
+                                        </constraints>
+                                        <state key="normal" title="UPDATE">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="24"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="handleUpdateProfileAction:" destination="efP-WS-0B0" eventType="touchUpInside" id="yr8-XS-JnZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="#EFEFF4"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="nL1-IF-jPn" secondAttribute="bottom" constant="4" id="1MP-x1-oaI"/>
+                                    <constraint firstItem="dMd-wg-AtY" firstAttribute="centerX" secondItem="uBk-3b-P5U" secondAttribute="centerX" id="6jS-qd-HLr"/>
+                                    <constraint firstItem="HvI-Tl-5g9" firstAttribute="leading" secondItem="uBk-3b-P5U" secondAttribute="leading" constant="16" id="BjN-NU-d9D"/>
+                                    <constraint firstItem="dMd-wg-AtY" firstAttribute="width" secondItem="uBk-3b-P5U" secondAttribute="width" constant="-40" id="GbJ-cW-3Wa"/>
+                                    <constraint firstItem="VZb-sq-T9C" firstAttribute="top" secondItem="HvI-Tl-5g9" secondAttribute="bottom" constant="4" id="PIY-8m-IS0"/>
+                                    <constraint firstItem="VZb-sq-T9C" firstAttribute="leading" secondItem="uBk-3b-P5U" secondAttribute="leading" constant="16" id="SmV-XL-jwf"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HvI-Tl-5g9" secondAttribute="trailing" constant="20" symbolic="YES" id="WAH-kx-Nzn"/>
+                                    <constraint firstItem="nL1-IF-jPn" firstAttribute="centerX" secondItem="uBk-3b-P5U" secondAttribute="centerX" id="ZAR-Cf-RoE"/>
+                                    <constraint firstItem="nL1-IF-jPn" firstAttribute="width" secondItem="uBk-3b-P5U" secondAttribute="width" constant="-40" id="h3p-3D-jV2"/>
+                                    <constraint firstItem="dMd-wg-AtY" firstAttribute="centerY" secondItem="uBk-3b-P5U" secondAttribute="centerY" constant="-16" id="mfg-87-jPe"/>
+                                    <constraint firstAttribute="trailing" secondItem="VZb-sq-T9C" secondAttribute="trailing" constant="16" id="nNb-xx-4ya"/>
+                                    <constraint firstItem="HvI-Tl-5g9" firstAttribute="top" secondItem="uBk-3b-P5U" secondAttribute="top" constant="4" id="zQG-bO-gZh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uBk-3b-P5U" firstAttribute="height" secondItem="J52-H3-bPS" secondAttribute="height" multiplier="1:3" id="JBP-aA-SIL"/>
+                            <constraint firstItem="xR0-0l-Ewk" firstAttribute="bottom" secondItem="uBk-3b-P5U" secondAttribute="bottom" id="eYk-B4-fan"/>
+                            <constraint firstItem="uBk-3b-P5U" firstAttribute="leading" secondItem="xR0-0l-Ewk" secondAttribute="leading" id="hfQ-FX-314"/>
+                            <constraint firstItem="xR0-0l-Ewk" firstAttribute="trailing" secondItem="uBk-3b-P5U" secondAttribute="trailing" id="rMw-xL-EHO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xR0-0l-Ewk"/>
+                    </view>
+                    <connections>
+                        <outlet property="txtAddress" destination="yZG-FZ-07K" id="5RS-tP-QTg"/>
+                        <outlet property="txtName" destination="GyU-AE-VCm" id="U5U-JB-3RP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XCQ-ZL-7FG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="881" y="-644"/>
+        </scene>
         <!--Shopping-->
         <scene sceneID="7VJ-D8-Knp">
             <objects>
@@ -88,7 +187,7 @@
         <!--Home-->
         <scene sceneID="sN8-X3-GJ9">
             <objects>
-                <viewController id="6lU-Uh-bQt" sceneMemberID="viewController">
+                <viewController id="6lU-Uh-bQt" customClass="HomeViewController" customModule="BarberBooking" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gPe-eN-2vn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,5 +224,17 @@
         <image name="home" width="30" height="30"/>
         <image name="my_bg" width="1080" height="1920"/>
         <image name="shopping_cart" width="30" height="30"/>
+        <namedColor name="#4CD946">
+            <color red="0.29803921568627451" green="0.85098039215686272" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#8E8E93">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#CECED2">
+            <color red="0.80784313725490198" green="0.80784313725490198" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#EFEFF4">
+            <color red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

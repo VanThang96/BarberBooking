@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-
+import SVProgressHUD
 
 let userDefault = UserDefaults.standard
 
@@ -21,5 +21,14 @@ extension UIViewController{
         let storyboard = UIStoryboard(name: appStoryboard.rawValue, bundle: nil)
         let identifier = String(describing: self)
         return storyboard.instantiateViewController(withIdentifier: identifier) as! T
+    }
+}
+extension SVProgressHUD {
+    static func svProgressHUB(){
+        self.setDefaultStyle(.custom)
+        self.setDefaultMaskType(.custom)
+        self.setBackgroundColor(UIColor.white)
+        self.setForegroundColor(UIColor(named: "#5AC8FA")!)
+        self.setBackgroundLayerColor(UIColor(named: "MASK")!)
     }
 }
