@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="202" id="KGk-i7-Jjw" customClass="LookBookTableViewCell" customModule="BarberBooking" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="202"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="345" height="201.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_booking_01" translatesAutoresizingMaskIntoConstraints="NO" id="Dwn-2k-jIi">
+                        <rect key="frame" x="0.0" y="0.0" width="345" height="201.5"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Dwn-2k-jIi" secondAttribute="trailing" id="DtQ-GT-HN7"/>
+                    <constraint firstAttribute="bottom" secondItem="Dwn-2k-jIi" secondAttribute="bottom" id="Jue-f8-1ky"/>
+                    <constraint firstItem="Dwn-2k-jIi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ONd-Tc-rQl"/>
+                    <constraint firstItem="Dwn-2k-jIi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="iC0-I7-QsL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imvLookBook" destination="Dwn-2k-jIi" id="HYD-a4-CGf"/>
+            </connections>
+            <point key="canvasLocation" x="-8" y="49"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ico_booking_01" width="900" height="600"/>
+    </resources>
+</document>

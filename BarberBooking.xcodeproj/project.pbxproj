@@ -25,6 +25,8 @@
 		21C620C222EA97D800C3D258 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C620C122EA97D800C3D258 /* Colors.xcassets */; };
 		21C620C422EA9F5600C3D258 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C620C322EA9F5600C3D258 /* HomeViewController.swift */; };
 		21C620C622EAA24500C3D258 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C620C522EAA24500C3D258 /* UpdateProfileViewController.swift */; };
+		21CDDF2A22FB30090077ABE9 /* LookBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CDDF2822FB30090077ABE9 /* LookBookTableViewCell.swift */; };
+		21CDDF2B22FB30090077ABE9 /* LookBookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21CDDF2922FB30090077ABE9 /* LookBookTableViewCell.xib */; };
 		21EF0A5C22F7E4D400BB74D6 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF0A5B22F7E4D400BB74D6 /* UserDefaultManager.swift */; };
 		21EF0A5F22F7E57F00BB74D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF0A5E22F7E57F00BB74D6 /* Constants.swift */; };
 		21EF0A6822F7E88300BB74D6 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF0A6722F7E88300BB74D6 /* MainNavigationViewController.swift */; };
@@ -52,6 +54,8 @@
 		21C620C122EA97D800C3D258 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		21C620C322EA9F5600C3D258 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		21C620C522EAA24500C3D258 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		21CDDF2822FB30090077ABE9 /* LookBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookBookTableViewCell.swift; sourceTree = "<group>"; };
+		21CDDF2922FB30090077ABE9 /* LookBookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LookBookTableViewCell.xib; sourceTree = "<group>"; };
 		21EF0A5B22F7E4D400BB74D6 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
 		21EF0A5E22F7E57F00BB74D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		21EF0A6722F7E88300BB74D6 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
@@ -166,6 +170,15 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		21CDDF2722FB2F830077ABE9 /* LookBookCell */ = {
+			isa = PBXGroup;
+			children = (
+				21CDDF2822FB30090077ABE9 /* LookBookTableViewCell.swift */,
+				21CDDF2922FB30090077ABE9 /* LookBookTableViewCell.xib */,
+			);
+			path = LookBookCell;
+			sourceTree = "<group>";
+		};
 		21EF0A5922F7E4AE00BB74D6 /* Global */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +215,7 @@
 		21EF0A6122F7E62900BB74D6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				21CDDF2722FB2F830077ABE9 /* LookBookCell */,
 				214977B622FAD63A006E32C5 /* BannerCell */,
 				21C620C322EA9F5600C3D258 /* HomeViewController.swift */,
 			);
@@ -289,6 +303,7 @@
 				21A1D77A22E95E010095D630 /* classique_saigon.ttf in Resources */,
 				21A1D76F22E94B260095D630 /* LaunchScreen.storyboard in Resources */,
 				21A1D77E22E95E2B0095D630 /* bellerose.ttf in Resources */,
+				21CDDF2B22FB30090077ABE9 /* LookBookTableViewCell.xib in Resources */,
 				21A1D77722E94B7F0095D630 /* GoogleService-Info.plist in Resources */,
 				21A1D76C22E94B260095D630 /* Assets.xcassets in Resources */,
 				21C620C222EA97D800C3D258 /* Colors.xcassets in Resources */,
@@ -372,6 +387,7 @@
 				21EF0A5F22F7E57F00BB74D6 /* Constants.swift in Sources */,
 				214977B922FAD686006E32C5 /* BannerCollectionViewCell.swift in Sources */,
 				21EF0A5C22F7E4D400BB74D6 /* UserDefaultManager.swift in Sources */,
+				21CDDF2A22FB30090077ABE9 /* LookBookTableViewCell.swift in Sources */,
 				21C620C622EAA24500C3D258 /* UpdateProfileViewController.swift in Sources */,
 				21EF0A6822F7E88300BB74D6 /* MainNavigationViewController.swift in Sources */,
 				2174806C22E9B33E00E248F0 /* Extensions.swift in Sources */,

@@ -378,10 +378,24 @@
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="HFM-ze-mNc">
                                 <rect key="frame" x="8" y="170" width="304" height="37"/>
                             </pageControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hOV-XE-lrq">
+                                <rect key="frame" x="8" y="235.5" width="304" height="275.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="6lU-Uh-bQt" id="tRP-CH-Whh"/>
+                                    <outlet property="delegate" destination="6lU-Uh-bQt" id="b0Y-EO-wMa"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" name="#EFEFF4"/>
                         <constraints>
                             <constraint firstItem="jli-VA-Nry" firstAttribute="top" secondItem="T0I-FM-2Nl" secondAttribute="top" constant="16" id="1wb-p7-nqc"/>
+                            <constraint firstItem="T0I-FM-2Nl" firstAttribute="bottom" secondItem="hOV-XE-lrq" secondAttribute="bottom" constant="8" id="2CU-ku-aSh"/>
                             <constraint firstItem="jli-VA-Nry" firstAttribute="centerX" secondItem="gPe-eN-2vn" secondAttribute="centerX" id="6UI-dn-07o"/>
                             <constraint firstItem="T0I-FM-2Nl" firstAttribute="trailing" secondItem="fZr-F0-raX" secondAttribute="trailing" constant="8" id="6bR-WE-c76"/>
                             <constraint firstItem="T0I-FM-2Nl" firstAttribute="trailing" secondItem="8Ls-pL-9hg" secondAttribute="trailing" constant="8" id="73V-GT-MZi"/>
@@ -392,8 +406,11 @@
                             <constraint firstItem="HFM-ze-mNc" firstAttribute="centerX" secondItem="8Ls-pL-9hg" secondAttribute="centerX" id="crN-kG-Wip"/>
                             <constraint firstItem="fZr-F0-raX" firstAttribute="leading" secondItem="T0I-FM-2Nl" secondAttribute="leading" constant="8" id="hiE-Mv-scB"/>
                             <constraint firstItem="HFM-ze-mNc" firstAttribute="bottom" secondItem="8Ls-pL-9hg" secondAttribute="bottom" id="lzt-JD-U4S"/>
+                            <constraint firstItem="T0I-FM-2Nl" firstAttribute="trailing" secondItem="hOV-XE-lrq" secondAttribute="trailing" constant="8" id="mhM-Lk-HlK"/>
                             <constraint firstItem="fZr-F0-raX" firstAttribute="top" secondItem="8Ls-pL-9hg" secondAttribute="bottom" constant="4" id="sal-pG-mck"/>
+                            <constraint firstItem="hOV-XE-lrq" firstAttribute="top" secondItem="fZr-F0-raX" secondAttribute="bottom" constant="4" id="uAQ-uQ-dLN"/>
                             <constraint firstItem="8Ls-pL-9hg" firstAttribute="leading" secondItem="T0I-FM-2Nl" secondAttribute="leading" constant="8" id="uIm-9b-wXF"/>
+                            <constraint firstItem="hOV-XE-lrq" firstAttribute="leading" secondItem="T0I-FM-2Nl" secondAttribute="leading" constant="8" id="wxI-3q-Dv9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="T0I-FM-2Nl"/>
                     </view>
@@ -401,6 +418,7 @@
                     <connections>
                         <outlet property="colBanner" destination="8Ls-pL-9hg" id="pUf-oM-M82"/>
                         <outlet property="pgBanner" destination="HFM-ze-mNc" id="ce1-jJ-EfI"/>
+                        <outlet property="tbLookBook" destination="hOV-XE-lrq" id="mZ2-VY-lBE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JDj-Od-96i" userLabel="First Responder" sceneMemberID="firstResponder"/>

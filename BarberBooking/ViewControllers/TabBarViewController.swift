@@ -13,7 +13,7 @@ import Firebase
 class TabBarViewController: UITabBarController {
     
     //MARK:- Variable
-    var accountKit : AccountKit!
+    var accountKit : AccountKitManager!
     var userRef : CollectionReference!
     var phoneNumber : String!
     
@@ -45,7 +45,7 @@ class TabBarViewController: UITabBarController {
         // initialize Account Kit
         if accountKit == nil {
             //specify AKFResponseType.AccessToken
-            self.accountKit = AccountKit(responseType: .accessToken)
+            self.accountKit = AccountKitManager(responseType: .accessToken)
             accountKit.requestAccount{
                 (account, error) in
                 guard let account = account else {return}

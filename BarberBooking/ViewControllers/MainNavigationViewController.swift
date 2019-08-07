@@ -11,7 +11,7 @@ import AccountKit
 
 class MainNavigationViewController: UINavigationController {
     
-    var accountKit : AccountKit!
+    var accountKit : AccountKitManager!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ class MainNavigationViewController: UINavigationController {
         
         // generate accountkit
         if accountKit == nil {
-            accountKit = AccountKit(responseType: .accessToken)
+            accountKit = AccountKitManager(responseType: .accessToken)
         }
         settingFirstScreen()
     }
@@ -62,7 +62,7 @@ extension MainNavigationViewController {
         let inputState = UUID().uuidString
         let vc = accountKit.viewControllerForPhoneLogin(with: nil, state: inputState)
         vc.isSendToFacebookEnabled = true
-        vc.isGetACallEnabled = true
+        vc.isSMSEnabled = true
         vc.delegate = self
         self.prepareLoginViewController(loginViewController: vc)
         self.present(vc, animated: true, completion: nil)

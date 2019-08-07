@@ -1,0 +1,6 @@
+framework module Pods_BarberBooking {
+  umbrella header "Pods-BarberBooking-umbrella.h"
+
+  export *
+  module * { export * }
+}
