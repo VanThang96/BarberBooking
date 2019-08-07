@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2124C48122EAE5DC001B3052 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2124C48022EAE5DC001B3052 /* User.swift */; };
+		214977B922FAD686006E32C5 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214977B722FAD686006E32C5 /* BannerCollectionViewCell.swift */; };
+		214977BA22FAD686006E32C5 /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 214977B822FAD686006E32C5 /* BannerCollectionViewCell.xib */; };
 		2174806822E99E1A00E248F0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174806722E99E1A00E248F0 /* TabBarViewController.swift */; };
 		2174806C22E9B33E00E248F0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174806B22E9B33E00E248F0 /* Extensions.swift */; };
 		2174806E22E9B4D200E248F0 /* UserAccountKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174806D22E9B4D200E248F0 /* UserAccountKit.swift */; };
@@ -23,11 +25,16 @@
 		21C620C222EA97D800C3D258 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C620C122EA97D800C3D258 /* Colors.xcassets */; };
 		21C620C422EA9F5600C3D258 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C620C322EA9F5600C3D258 /* HomeViewController.swift */; };
 		21C620C622EAA24500C3D258 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C620C522EAA24500C3D258 /* UpdateProfileViewController.swift */; };
+		21EF0A5C22F7E4D400BB74D6 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF0A5B22F7E4D400BB74D6 /* UserDefaultManager.swift */; };
+		21EF0A5F22F7E57F00BB74D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF0A5E22F7E57F00BB74D6 /* Constants.swift */; };
+		21EF0A6822F7E88300BB74D6 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF0A6722F7E88300BB74D6 /* MainNavigationViewController.swift */; };
 		C10B73D3F06366D71B2C2FA3 /* Pods_BarberBooking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49EEC965443C0FE8B0BFC5C /* Pods_BarberBooking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2124C48022EAE5DC001B3052 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		214977B722FAD686006E32C5 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		214977B822FAD686006E32C5 /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
 		2174806722E99E1A00E248F0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		2174806B22E9B33E00E248F0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2174806D22E9B4D200E248F0 /* UserAccountKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountKit.swift; sourceTree = "<group>"; };
@@ -45,6 +52,9 @@
 		21C620C122EA97D800C3D258 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		21C620C322EA9F5600C3D258 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		21C620C522EAA24500C3D258 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		21EF0A5B22F7E4D400BB74D6 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		21EF0A5E22F7E57F00BB74D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		21EF0A6722F7E88300BB74D6 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
 		7C795DEF413C0B527163BCE3 /* Pods-BarberBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarberBooking.release.xcconfig"; path = "Target Support Files/Pods-BarberBooking/Pods-BarberBooking.release.xcconfig"; sourceTree = "<group>"; };
 		9B929456C885796040165C14 /* Pods-BarberBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarberBooking.debug.xcconfig"; path = "Target Support Files/Pods-BarberBooking/Pods-BarberBooking.debug.xcconfig"; sourceTree = "<group>"; };
 		F49EEC965443C0FE8B0BFC5C /* Pods_BarberBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarberBooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +79,15 @@
 				7C795DEF413C0B527163BCE3 /* Pods-BarberBooking.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		214977B622FAD63A006E32C5 /* BannerCell */ = {
+			isa = PBXGroup;
+			children = (
+				214977B722FAD686006E32C5 /* BannerCollectionViewCell.swift */,
+				214977B822FAD686006E32C5 /* BannerCollectionViewCell.xib */,
+			);
+			path = BannerCell;
 			sourceTree = "<group>";
 		};
 		2174806922E9B01300E248F0 /* Models */ = {
@@ -109,7 +128,8 @@
 		21A1D76322E94B240095D630 /* BarberBooking */ = {
 			isa = PBXGroup;
 			children = (
-				2174806A22E9B32B00E248F0 /* Extensions */,
+				21EF0A5A22F7E4B700BB74D6 /* Manager */,
+				21EF0A5922F7E4AE00BB74D6 /* Global */,
 				2174806922E9B01300E248F0 /* Models */,
 				21A1D78122E966080095D630 /* ViewControllers */,
 				21A1D77822E95DBC0095D630 /* Fonts */,
@@ -137,12 +157,63 @@
 		21A1D78122E966080095D630 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				21A1D76622E94B240095D630 /* LoginViewController.swift */,
+				21EF0A6222F7E66100BB74D6 /* CustomViews */,
+				21EF0A6122F7E62900BB74D6 /* Home */,
+				21EF0A6022F7E60800BB74D6 /* Login */,
 				2174806722E99E1A00E248F0 /* TabBarViewController.swift */,
-				21C620C322EA9F5600C3D258 /* HomeViewController.swift */,
-				21C620C522EAA24500C3D258 /* UpdateProfileViewController.swift */,
+				21EF0A6722F7E88300BB74D6 /* MainNavigationViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		21EF0A5922F7E4AE00BB74D6 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				21EF0A5D22F7E56E00BB74D6 /* Constant */,
+				2174806A22E9B32B00E248F0 /* Extensions */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		21EF0A5A22F7E4B700BB74D6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				21EF0A5B22F7E4D400BB74D6 /* UserDefaultManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		21EF0A5D22F7E56E00BB74D6 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				21EF0A5E22F7E57F00BB74D6 /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		21EF0A6022F7E60800BB74D6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				21A1D76622E94B240095D630 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		21EF0A6122F7E62900BB74D6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				214977B622FAD63A006E32C5 /* BannerCell */,
+				21C620C322EA9F5600C3D258 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		21EF0A6222F7E66100BB74D6 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				21C620C522EAA24500C3D258 /* UpdateProfileViewController.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		96EEC553364D3BD4F1492434 /* Frameworks */ = {
@@ -188,6 +259,7 @@
 				TargetAttributes = {
 					21A1D76022E94B240095D630 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -221,6 +293,7 @@
 				21A1D76C22E94B260095D630 /* Assets.xcassets in Resources */,
 				21C620C222EA97D800C3D258 /* Colors.xcassets in Resources */,
 				21A1D77C22E95E200095D630 /* roboto_light.TTF in Resources */,
+				214977BA22FAD686006E32C5 /* BannerCollectionViewCell.xib in Resources */,
 				21A1D76A22E94B240095D630 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +369,11 @@
 				21A1D76522E94B240095D630 /* AppDelegate.swift in Sources */,
 				2174806E22E9B4D200E248F0 /* UserAccountKit.swift in Sources */,
 				2124C48122EAE5DC001B3052 /* User.swift in Sources */,
+				21EF0A5F22F7E57F00BB74D6 /* Constants.swift in Sources */,
+				214977B922FAD686006E32C5 /* BannerCollectionViewCell.swift in Sources */,
+				21EF0A5C22F7E4D400BB74D6 /* UserDefaultManager.swift in Sources */,
 				21C620C622EAA24500C3D258 /* UpdateProfileViewController.swift in Sources */,
+				21EF0A6822F7E88300BB74D6 /* MainNavigationViewController.swift in Sources */,
 				2174806C22E9B33E00E248F0 /* Extensions.swift in Sources */,
 				21C620C422EA9F5600C3D258 /* HomeViewController.swift in Sources */,
 			);
@@ -454,7 +531,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vanthangnguyen.BarberBooking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -473,7 +550,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vanthangnguyen.BarberBooking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

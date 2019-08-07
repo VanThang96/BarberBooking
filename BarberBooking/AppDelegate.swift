@@ -18,7 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
-        chooseViewController()
         return true
     }
 
@@ -44,14 +43,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-    func chooseViewController(){
-        let appDelegate = UIApplication.shared.delegate as? AppDelegate
-        if let accessToken = userDefault.string(forKey: "accessToken"){
-            print(accessToken)
-            appDelegate!.window?.rootViewController = TabBarViewController.instantiate(appStoryboard: .main) as! TabBarViewController
-        }else {
-            appDelegate!.window?.rootViewController = LoginViewController.instantiate(appStoryboard: .main) as! LoginViewController
-        }
-    }
 }
 
